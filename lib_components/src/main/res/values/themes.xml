@@ -1,0 +1,89 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--EditText输入框样式-->
+    <style name="style_edittext_radius_85b0d3">
+        <item name="android:layout_width">@dimen/widget_size_315</item>
+        <item name="android:layout_height">@dimen/widget_size_45</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLength">15</item>
+        <item name="android:paddingStart">@dimen/widget_size_20</item>
+        <item name="android:paddingEnd">@dimen/widget_size_20</item>
+        <item name="android:textSize">@dimen/font_size_12</item>
+        <item name="android:background">@drawable/shape_bg_85b0d3</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/color_8D8D8D</item>
+    </style>
+
+    <style name="style_textview_radius_85b0d3">
+        <item name="android:layout_width">@dimen/widget_size_315</item>
+        <item name="android:layout_height">@dimen/widget_size_45</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingStart">@dimen/widget_size_20</item>
+        <item name="android:paddingEnd">@dimen/widget_size_20</item>
+        <item name="android:textSize">@dimen/font_size_12</item>
+        <item name="android:background">@drawable/shape_bg_85b0d3</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/color_8D8D8D</item>
+    </style>
+
+    <!--textview展示样式-->
+    <style name="style_textview_info">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/color_666666</item>
+        <item name="android:textSize">@dimen/font_size_11</item>
+    </style>
+
+    <style name="style_textview_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/font_size_15</item>
+    </style>
+
+    <!--CheckBox样式-->
+    <style name="style_checkbox_theme" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:button">@null</item>
+        <item name="android:background">@drawable/checkbox_style</item>
+    </style>
+
+    <!--imageview后退按钮样式-->
+    <style name="style_imageview_back">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/widget_size_15</item>
+        <item name="android:layout_marginTop">@dimen/widget_size_30</item>
+        <item name="android:src">@mipmap/nav_back</item>
+        <item name="android:tint">@color/color_F78759</item>
+    </style>
+
+
+    <style name="style_click_button" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">@dimen/widget_size_335</item>
+        <item name="android:layout_height">@dimen/widget_size_50</item>
+        <item name="android:background">@drawable/shape_bg_f78759_radius_20</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/font_size_15</item>
+    </style>
+
+    <style name="bottom_dialog" parent="@style/Base.V7.Theme.AppCompat.Light.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="BottomDialog.Animation" parent="Animation.AppCompat.Dialog">
+        <item name="android:windowEnterAnimation">@anim/translate_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/translate_dialog_out</item>
+    </style>
+
+    <style name="style_card_view" parent="CardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/widget_size_20</item>
+        <item name="android:layout_marginTop">@dimen/widget_size_20</item>
+        <item name="android:layout_marginEnd">@dimen/widget_size_20</item>
+        <item name="android:layout_marginBottom">@dimen/widget_size_15</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>

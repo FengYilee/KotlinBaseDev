@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/shape_dialog_white"
+    android:padding="@dimen/widget_size_10">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/widget_size_50">
+
+
+        <com.shehuan.niv.NiceImageView
+            android:id="@+id/iv_avatar"
+            android:layout_width="@dimen/widget_size_30"
+            android:layout_height="@dimen/widget_size_30"
+            android:src="@mipmap/avatar_salesman"
+            app:is_circle="true"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/style_textview_info"
+            app:layout_constraintStart_toEndOf="@id/iv_avatar"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="@dimen/widget_size_25"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_size_15"
+            android:textStyle="bold"
+            android:text="Waylon Kwan"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/style_textview_info"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="@dimen/widget_size_25"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_size_15"
+            android:textStyle="bold"
+            android:text="Yuni-Ku Cars"
+            android:layout_marginEnd="@dimen/widget_size_15"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_e9e9ea"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/widget_size_50">
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_phone"
+            android:layout_marginStart="@dimen/widget_size_7"
+            android:layout_width="@dimen/widget_size_20"
+            android:layout_height="@dimen/widget_size_20"
+            android:src="@mipmap/icon_whatsapp"
+            app:is_circle="true"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/style_textview_info"
+            app:layout_constraintStart_toEndOf="@id/iv_phone"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="@dimen/widget_size_25"
+            android:text="+6739123456"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/widget_size_15"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@mipmap/right_arrow"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_e9e9ea"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/widget_size_50">
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_gmail"
+            android:layout_marginStart="@dimen/widget_size_7"
+            android:layout_width="@dimen/widget_size_20"
+            android:layout_height="@dimen/widget_size_20"
+            android:src="@mipmap/icon_gmail"
+            app:is_circle="true"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/style_textview_info"
+            app:layout_constraintStart_toEndOf="@id/iv_gmail"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="@dimen/widget_size_25"
+            android:text="waylonz@yunikucars.com"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/widget_size_15"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@mipmap/right_arrow"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_e9e9ea"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/widget_size_50">
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_instagram"
+            android:layout_marginStart="@dimen/widget_size_7"
+            android:layout_width="@dimen/widget_size_20"
+            android:layout_height="@dimen/widget_size_20"
+            android:src="@mipmap/icon_instagram"
+            app:is_circle="true"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/style_textview_info"
+            app:layout_constraintStart_toEndOf="@id/iv_instagram"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="@dimen/widget_size_25"
+            android:text="kwan.yunikucars"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/widget_size_15"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@mipmap/right_arrow"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_e9e9ea"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/widget_size_50">
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_facebook"
+            android:layout_marginStart="@dimen/widget_size_7"
+            android:layout_width="@dimen/widget_size_20"
+            android:layout_height="@dimen/widget_size_20"
+            android:src="@mipmap/icon_facebook"
+            app:is_circle="true"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/style_textview_info"
+            app:layout_constraintStart_toEndOf="@id/iv_facebook"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="@dimen/widget_size_25"
+            android:text="kwan.yunikucars"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/widget_size_15"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@mipmap/right_arrow"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_e9e9ea"/>
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/widget_size_50">
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_twitter"
+            android:layout_marginStart="@dimen/widget_size_7"
+            android:layout_width="@dimen/widget_size_20"
+            android:layout_height="@dimen/widget_size_20"
+            android:src="@mipmap/icon_twitter"
+            app:is_circle="true"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/style_textview_info"
+            app:layout_constraintStart_toEndOf="@id/iv_twitter"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="@dimen/widget_size_25"
+            android:text="kwan.yunikucars"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/widget_size_15"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@mipmap/right_arrow"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
